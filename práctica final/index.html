@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final HTML</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+   <div class="header">
+       <img src="assets/img/mascotas.jpg" alt="logo escuela">
+       <h1>Happy Puppy</h1>
+       <span>Cuidamos y educamos a tu mascota</span>
+   </div> 
+   <div class="container">
+       <div class="section">
+           <h2 class="title">Quiénes somos</h2>
+           <div class="to_left">
+               <p>Hola!somos una escuela dedicada tanto al cuidado, como a la reeducaión de tus mascotas. Disponemos de unas instalaciones geniales y un equipo super preparado para ello! </p>
+               <p>Nuestro equipo se encuentra caracterizado por la multidisciplinariedad:veterinarios, auxiliares de clínica, adiestradores y pedagogos fáunicos. Somos un equipo formado y dedicado al mundo animal </p>
+               <p>Nuestro centro es tan especial por encontrarse en plena naturaleza, qué mejor entorno para poder cuidar de sus mascotas. </p>
+           </div>
+           <div class="to_right">
+               <p>Nuestro equipo de profesionales se encuentra compuesto por:</p>
+               <div class="staff">
+                   <div>
+                       <img class="img-adaptable" src="assets/img/Luis.jpg" alt="Veterinario">
+                       <span>Luis Perez</span>
+                       <span class="profesión">Veterinario</span>
+                   </div>
+                   <div>
+                       <img class="img-adaptable2" src="assets/img/Juan.jpg" alt="adiestrador">
+                       <span>Juan Gómez</span>
+                       <span class="profesión">Adiestrador</span>
+                   </div>
+                   <div>
+                       <img class="img-adaptable3" src="assets/img/Patricia.jpg" alt="veterinaria">
+                       <span>Patricia Pérez</span>
+                       <span class="profesión">Veterinaria</span>
+
+                   </div>
+                   <div>
+                       <img class="img-adaptable4" src="assets/img/Ana.jpg" alt="pedagoga">
+                       <span>Ana Martinez</span>
+                       <span class="profesión">Pedagoga fáunica</span>
+                   </div>
+                   <div>
+                       <img class="img-adaptable5" src="assets/img/Mar.jpeg" alt="auxiliar">
+                       <span>Mar Campos</span>
+                       <span class="profesión">Auxiliar de veterinaria</span>
+
+                   </div>
+               </div>
+           </div>
+       </div>
+
+       <div class="clearfix"></div>
+
+       <div class="section">
+           <h2 class="tittle">Nuestros servicios</h2>
+           <div class="to_left">
+               <img class="img-adaptable6" src="assets/img/servicios.jpg" alt="servicios">
+
+           </div>
+           <div class="to_right">
+               <p>Ofrecemos una amplia variedad de servicios:atención sanitaria, cuiadado integral, asistencia y veterinaria.</p>
+               <ul>
+                   <li><i class="fas fa-home"></i>Seremos un hogar para tus mascotas, así podrás irte de viaje sin preocupaciones. </li>
+                   <li><i class="fas fa-heartbeat"></i>Cobertura en asistencia sanitaria garantizada al 100%.</li>
+                   <li><i class="fas fa-notes-medical"></i>Pedagogía del comportamiento animal.</li>
+                   <li><i class="fas fa-medkit"></i>Asesoramiento sobre el tratamiento de tus mascotas.</li>
+                   <li><i class="fas fa-procedures"></i>El cuidado más especial para tus mascotas.</li>
+                   <li><i class="fas fa-utensils"></i>Segimiento nutricional totalmente individual.</li>
+                   <li><i class="fas fa-puzzle-piece"></i>Todo tipo de recursos para fomentar el aprendizaje y la motivación.</li>
+
+               </ul>
+            </div>
+       </div>
+
+       <div class="clearfix"></div>
+       <div class="section section_precios"></div>
+       <h2 class="tittle">Precios</h2>
+
+       <div class="center">
+           <div class="precio_container">
+               <h4><i class="fas fa-campground"></i>Cuidado completo</h4>
+               <p>Ello incluye: dormitorio, alimentación, asistencia veterinaria y seguimiento del animal 24h.</p>
+               <div class="precio">100 Euros/día</div>
+           </div>
+       </div>
+    <div class="precio_container">
+        <h4><i class="fas fa-hamburger"></i>Servicio de nutrición adicional</h4>
+        <p>Si quiere modificar la alimentación de su animal o suplementarla</p>
+        <div class="precio"> 70 Euros/día</div>
+    </div>
+
+    <div class="precio_container">
+        <h4><i class="fas fa-brain"></i>Inteligencia VET Plus</h4>
+        <p>Juegos de inteligencia y adiestramiento</p>
+        <div class="precio">60 Euros/día</div>
+    </div>
+
+    <div class="precio_container">
+        <h4><i class="fas fa-business-time"></i>Coaching</h4>
+        <p>Charlas, consejos y programas para progresar en la educación de tu mascota</p>
+        <div class="precio">90 Euros/día</div>
+
+    </div>
+  </div>
+</div>
+
+<div class="section">
+    <h2 class="tittle">Contacto</h2>
+    <form action="">
+
+        <div class="form-section">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+        </div>
+
+        <div class="form-section">
+            <label for="teléfono">Teléfono:</label>
+            <input type="number" id="teléfono" name="teléfono">
+
+        </div>
+
+        <div class="form-section">
+            <label for="tipo">Tipo de mascota:</label>
+            <select name="tipo" id="tipo">
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+                <option value="conejo">Conejo</option>
+                <option value="roedor">Roedor</option>
+                <option value="reptil">Reptil</option>
+                <option value="ave">Ave</option>
+            </select>
+
+        </div>
+
+        <div class="form-section">
+            <p>¿Es usted cliente habitual?</p>
+            <input type="radio" name="cliente" value="si">SÍ
+            <input type="radio" name="cliente" value="no">NO
+
+        </div>
+
+        <div class="form-section">
+            <p>Consultas:</p>
+            <textarea name="comment" id="comment" cols="60" rows="10"></textarea>
+
+        </div>
+
+        <div class="form-section">
+            <input type="submit" value="ENVIAR">
+
+        </div>
+    </form>
+    </div>
+</div>
+</div>
+</body>
+</html>

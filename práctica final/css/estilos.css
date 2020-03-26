@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #6F6F6F;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 20px;
+    background-color: #008374;
+    color: #FAFBF7;
+    overflow: auto;
+}
+
+.header > img{
+    display: block;
+    float: left;
+    max-height: 150px;
+    margin-right: 30px;
+}
+
+.header > span{
+    display: block;
+    font-size: 0.8em;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+.section{
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.section:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tittle{
+    color: #008374;
+}
+
+.to_left{
+    float: left;
+    width: 50%;
+    padding-right: 20px;
+}
+
+.to_right{
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.staff{
+    margin-top: 15px;
+}
+
+.img-adaptable{
+    width: 20px;
+    height: 20px;
+    border-radius: 20%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.img-adaptable2{
+    
+     width: 20px;
+    height: 20px;
+    border-radius: 20%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.img-adaptable3{
+    width: 20px;
+    height: 20px;
+    border-radius: 20%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.img-adaptable4{
+    width: 20px;
+    height: 20px;
+    border-radius: 20%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.img-adaptable5{
+    width: 10px;
+    height: 10px;
+    border-radius: 20%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.span{
+    display: block;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+span.profesión{
+    text-align: center;
+    color: #008374;
+}
+
+.img-adaptable5{
+    width: 100%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+li > .icons{
+    color: #F77300;
+}
+
+.center{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.precio_container{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    border: 1px solid #008374;
+    color: #008374;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+@media (max-widht:1080px){
+    .precio_container{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .to_left{
+        float: none;
+        width: 100%;
+    }
+
+    .to_right{
+        float: none;
+        width: 100%;
+    }
+}
+
+.precio_container > h4, .precio_container > p{
+  text-align: center;
+  border-bottom: 1px solid #008374;
+  padding: 10px;
+
+}
+
+.precio{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-color: #F77300;
+    border-radius: 5px;
+    color: #FAFBF7;
+}
+
+.form-section{
+    margin-bottom: 10px;
+}
+
